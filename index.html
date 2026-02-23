@@ -1,105 +1,176 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
     <title>Portfolio Caio</title>
-</head>
-<body>
-
+  </head>
+  <body>
     <div class="particulas"></div>
 
     <nav class="navegacao">
-        <ul class="menu">
-            <li>
-                <a href="#inicio" class="menu-link">Início</a>
-            </li>
-            <li>
-                <a href="#sobre" class="menu-link">Sobre</a>
-            </li>
-            <li>
-                <a href="#projetos" class="menu-link">Projetos</a>
-            </li>
-            <li>
-                <a href="#contatos" class="menu-link">Contato</a>
-            </li>
-        </ul>
+      <ul class="menu">
+        <li>
+          <a href="#inicio" class="menu-link">Início</a>
+        </li>
+        <li>
+          <a href="#sobre" class="menu-link">Sobre</a>
+        </li>
+          <li>
+          <a href="#conhecimentos" class="menu-link">Conhecimentos</a>
+        </li>
+        <li>
+          <a href="#projetos" class="menu-link">Projetos</a>
+        </li>
+        <li>
+          <a href="#contatos" class="menu-link">Contato</a>
+        </li>
+      </ul>
     </nav>
 
     <main id="inicio" class="cabecalho">
-        <img src="./img/Caio.jpg" alt="Imagem da pessoa do Portolio - Caio Cavalcante" class="foto-perfil">
-        <h1>Caio Cavalcante</h1>
-        <p class="cabecalho-sub-titulo">Desenvolvedor Front End</p>
+      <img
+        src="./img/Caio.jpg"
+        alt="Imagem da pessoa do Portolio - Caio Cavalcante"
+        class="foto-perfil"
+      />
+      <h1>Caio Cavalcante</h1>
+      <p class="cabecalho-sub-titulo">Desenvolvedor Front End</p>
     </main>
 
     <section id="sobre" class="sobre">
-        <h2 class="sobre-titulo">Sobre mim</h2>
-            <div class="sobre-caixa">
-                <p class="sobre-paragrafo">
-                    Olá! Me chamo Caio Cavalcante, tenho 26 anos e sou natural do São Paulo. Atualmente, estou cursando Análise e Desenvolvimento de Sistemas na Universidade Anhnaguera. Estou buscando uma oportunidade para ingressar na área de programação, aperfeiçoar meus conhecimentos e poder contribuir em um ambiente de trabalho.
-                    Possuo conhecimento em HTML, CSS, Sass, JavaScript e Angular.
-                </p>
-            </div>
+      <h2 class="sobre-titulo">Sobre mim</h2>
+      <div class="sobre-caixa">
+        <p class="sobre-paragrafo">
+          Olá! Me chamo Caio Cavalcante, tenho 26 anos e sou natural do São
+          Paulo. Atualmente, estou cursando Análise e Desenvolvimento de
+          Sistemas na Universidade Anhnaguera. Estou buscando uma oportunidade
+          para ingressar na área de programação, aperfeiçoar meus conhecimentos
+          e poder contribuir em um ambiente de trabalho.
+        </p>
+      </div>
+    </section>
+
+    <section id="conhecimentos" class="sobre">
+      <h2 class="sobre-titulo">Conhecimentos</h2>
+      <div class="sobre-caixa">
+        <p class="sobre-paragrafo">
+          Ao longo de meus estudos, pude adquirir conhecimentos essenciais para o desenvolvimento web, incluindo HTML, CSS e JavaScript. Pude aprender/conhecer frameworks e bibliotecas como Angular e React, para auxílio no desenvolvimento de interfaces dinâmicas e responsivas. Além disso, tenho experiência com controle de versão utilizando Git, GitHub e GitFlow, o que me permite colaborar eficientemente em projetos de equipe. Finalizando com entendimento sobre Design System, Requisições HTTP e Testes Unitários com Jest.
+        </p>
+      </div>
     </section>
 
     <section id="projetos" class="projetos">
-        <h2 class="projetos-titulo">Meus Projetos</h2>
-        <div class="projetos-caixa">
-            <div class="projetos-card">
-                <img src="./img/Projeto1.jpg" alt="Imagem do Projeto 1" class="projetos-imagem">
-                <div class="caixa-textos-projeto">
-                    <h3 class="info-projetos">X-Man</h3>
-                    <p class="paragrafo-projetos">Clássica animação dos x-man. Uma tela de seleção de personagens, semelhante a um videogame.</p>
-                </div>
+      <h2 class="projetos-titulo">Meus Projetos</h2>
+      <div class="projetos-caixa">
+        <a
+          class="link-projeto"
+          href="https://1caiocavalcante.github.io/X-Men/"
+          target="_blank"
+        >
+          <div class="projetos-card">
+            <img
+              src="./img/Projeto1.jpg"
+              alt="Imagem do Projeto 1"
+              class="projetos-imagem"
+            />
+            <div class="caixa-textos-projeto">
+              <h3 class="info-projetos">X-Man</h3>
+              <p class="paragrafo-projetos">
+                Clássica animação dos x-man. Uma tela de seleção de personagens,
+                semelhante a um videogame.
+              </p>
             </div>
-            <div class="projetos-card">
-                <img src="./img/Projeto2.jpg" alt="Imagem do Projeto 2" class="projetos-imagem">
-                <div class="caixa-textos-projeto">
-                    <h3 class="info-projetos">Agência Fake</h3>
-                    <p class="paragrafo-projetos">Simulação de uma agência de serviços. Focado em alavancar sites, lojas, empreendimentos digitais ou físicos.</p>
-                </div>
+          </div>
+        </a>
+        <a
+          class="link-projeto"
+          href="https://1caiocavalcante.github.io/Agencia-Fake/"
+          target="_blank"
+          ><div class="projetos-card">
+            <img
+              src="./img/Projeto2.jpg"
+              alt="Imagem do Projeto 2"
+              class="projetos-imagem"
+            />
+            <div class="caixa-textos-projeto">
+              <h3 class="info-projetos">Agência Fake</h3>
+              <p class="paragrafo-projetos">
+                Simulação de uma agência de serviços. Focado em alavancar sites,
+                lojas, empreendimentos digitais ou físicos.
+              </p>
             </div>
-            <div class="projetos-card">
-                <img src="./img/Projeto3.jpg" alt="Imagem do Projeto 3" class="projetos-imagem">
-                <div class="caixa-textos-projeto">
-                    <h3 class="info-projetos">One Piece</h3>
-                    <p class="paragrafo-projetos">Icônico e mundialmente conhecido. One Piece. Uma suscinta apresentação dos principais personagens</p>
-                </div>
+          </div>
+        </a>
+        <a
+          class="link-projeto"
+          href="https://1caiocavalcante.github.io/One-Piece/"
+          target="_blank"
+          ><div class="projetos-card">
+            <img
+              src="./img/Projeto3.jpg"
+              alt="Imagem do Projeto 3"
+              class="projetos-imagem"
+            />
+            <div class="caixa-textos-projeto">
+              <h3 class="info-projetos">One Piece</h3>
+              <p class="paragrafo-projetos">
+                Icônico e mundialmente conhecido. One Piece. Uma suscinta
+                apresentação dos principais personagens
+              </p>
             </div>
-        </div>
+          </div>
+        </a>
+      </div>
+      <p class="link-repositorio">
+        Para acessar todos os projetos, visite o meu repositório:
+        <a
+          class="link-projeto cor-letra-repositorio"
+          href="https://github.com/1caiocavalcante"
+          target="_blank"
+          >GitHub</a
+        >
+      </p>
     </section>
-   
+
     <section id="contatos" class="contatos">
-        <h2 class="contatos-titulo">Entre em Contato</h2>
-        <form class="formulario-contato" id="formulario" onsubmit="enviarWhats(event)">
-            <div class="grupo-form">
-                <input placeholder="Nome" class="campo-form" id="nome">
-            </div>
-            <div class="grupo-form">
-                <textarea class="campo-form"  placeholder="Digite sua Mensagem" id="mensagem" rows="6"></textarea>
-            </div>
-            <button type="submit" class="botao-form">Enviar mensagem</button>
-        </form>
+      <h2 class="contatos-titulo">Entre em Contato</h2>
+      <form
+        class="formulario-contato"
+        id="formulario"
+        onsubmit="enviarWhats(event)"
+      >
+        <div class="grupo-form">
+          <input placeholder="Nome" class="campo-form" id="nome" />
+        </div>
+        <div class="grupo-form">
+          <textarea
+            class="campo-form"
+            placeholder="Digite sua Mensagem"
+            id="mensagem"
+            rows="6"
+          ></textarea>
+        </div>
+        <button type="submit" class="botao-form">Enviar mensagem</button>
+      </form>
     </section>
 
     <script>
+      function enviarWhats(event) {
+        event.preventDefault();
 
-        function enviarWhats(event){
-            event.preventDefault()
+        const nome = document.getElementById("nome").value;
+        const mensagem = document.getElementById("mensagem").value;
+        const telefone = "5511981252000";
 
-            const nome = document.getElementById('nome').value;        
-            const mensagem = document.getElementById('mensagem').value;       
-            const telefone = '5511981252000';
-        
-            const texto = `Olá! Me chamo ${nome}, ${mensagem}`
-            const msgFormatada = encodeURIComponent(texto)
+        const texto = `Olá! Me chamo ${nome}, ${mensagem}`;
+        const msgFormatada = encodeURIComponent(texto);
 
-            const url = `https://whatsa.me/${telefone}/?t=${msgFormatada}`
+        const url = `https://whatsa.me/${telefone}/?t=${msgFormatada}`;
 
-            window.open(url, '_blank')
-        }
-        
+        window.open(url, "_blank");
+      }
     </script>
-</body>
+  </body>
 </html>

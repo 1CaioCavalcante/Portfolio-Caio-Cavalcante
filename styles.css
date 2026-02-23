@@ -170,6 +170,22 @@ h1{
     margin-bottom: 5px;
 }
 
+.link-projeto {
+    text-decoration: none;
+    color: var(--claro);
+}
+
+.link-repositorio {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 1.4rem;
+}
+
+.cor-letra-repositorio {
+    color: var(--secundaria);
+    font-weight: bold;
+}
+
 .contatos{
     padding: 6rem 2rem;
 }
